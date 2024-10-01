@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TaskBarSorterXP.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ApplicationSortOrder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">outlook.exe;explorer.exe;firefox.exe;notepad++.exe;devenv.exe</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
