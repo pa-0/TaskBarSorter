@@ -534,142 +534,39 @@ Within the `ContextMenuStrip Opening Event`, one can enable/disable `ToolStripMe
 
 <br/>
 
-## Comments and Discussions
+## Comments / Discussions
 
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| 💡 | Great App - but please add List Order Save/Load. | 👤 | [Member 15710172](https://www.codeproject.com/script/Membership/View.aspx?mid=15710172) | 18-Jul-22 12:46 |
-
-Very useful App , but please will you add ability to saved the List Order once it is arranged the way the User  
-wants it , and also the ability to load that that saved List Order.  
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| 📄| My vote of 5 | 👤 | [GicuPiticu](https://www.codeproject.com/script/Membership/View.aspx?mid=649908) | 14-Nov-21 14:58 |
-
-Awesome  
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| ![Question](https://www.codeproject.com/script/Forums/Images/msg_question.gif "Question") | Fantastic!......request for 1 added feature... | 👤 | [Member 9442749](https://www.codeproject.com/script/Membership/View.aspx?mid=9442749) | 19-Sep-12 19:35 |
-
-I know that you can save the list of Applications, but do you think you could make it possible to save the list order of "Window Titles"? The user could sort the list of opened Windows, then save that list. If the users sorts by the saved list, then any Windows in the list will be sorted into that order.  
-  
-Thanks.  
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| 📄| My vote of 5 | 👤 | [Member 4481407](https://www.codeproject.com/script/Membership/View.aspx?mid=4481407) | 17-Feb-11 20:41 |
-
-Very useful!  
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| 📄| My vote of 3 | 👤 | [Theingi Win](https://www.codeproject.com/script/Membership/View.aspx?mid=5376935) | 9-Feb-11 19:51 |
-
-Nice! I get new knowledge related following about  
-  
-# Calling unmanaged code (P/Invoke, API call)  
-# Showing/Hiding/Activating application windows  
-# Use of Delegates to realize callback functions  
-  
-Thanks! Stehtimschilf  
-Theingi  
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| 📄| My vote of 5 | 👤 | [**JF2015**](https://www.codeproject.com/script/Membership/View.aspx?mid=2685176) | 6-Feb-11 23:48 |
-
-Good one. I like the usage of the Win API. Would be great if you could enhance the usability of this tool by providing sorting of the windows inside the form (move up or down).  
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| ✅ | [Re: My vote of 5 - Sort `ListView` by `ContextMenu`](https://www.codeproject.com/Messages/3760419/Re-My-vote-of-5-Sort-ListView-by-ContextMenu) | 👤 | [StehtimSchilf](https://www.codeproject.com/script/Membership/View.aspx?mid=3316814) | 7-Feb-11 3:51 |
-
-Hi JF2015  
-  
-Thx for your feedback. About sorting inside the form: The `ListView` has already a `ContextMenu` attached. I see, I didn't mentioned the `ContextMenu` in the article. I'll make good for it this evening.  
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| 📄| My vote of 5 | 👤 | [Warrick Procter](https://www.codeproject.com/script/Membership/View.aspx?mid=3672333) | 6-Feb-11 17:53 |
-
-I like it!  
-  
-I've been procrastinating about writing something along these lines myself but never got into gear. Your excellent piece of work has given me some impetus and at the same time saved me from a lot of research/time/effort.  
-  
-Thanks, Warrick  
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| 📄| You got my 5! | 👤 | [luisnike19](https://www.codeproject.com/script/Membership/View.aspx?mid=1475315) | 6-Feb-11 10:25 |
-
-Nice article.  
-For some reason I have Google Chrome and when sorting the window is not maximized, just restored. But the other windows I tested is working as expected.  👍 
-
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| 📄| [Re: You got my 5!](https://www.codeproject.com/Messages/3760072/Re-You-got-my-5) | 👤 | [StehtimSchilf](https://www.codeproject.com/script/Membership/View.aspx?mid=3316814) | 6-Feb-11 17:09 |
-
-You're right. The windows get not correctly restored (happens also with Windows Explorer). Luckily there exists the API calls `GetWindowPlacement()` and `SetWindowPlacement()`. I'll extend the class `WindowItem` with a new property for the window placement as soon as possible. Thx for the pointer.  
-
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-|✅| [Re: You got my 5!](https://www.codeproject.com/Messages/3763145/Re-You-got-my-5) | 👤 | [StehtimSchilf](https://www.codeproject.com/script/Membership/View.aspx?mid=3316814) | 8-Feb-11 22:07 |
-
-I've finally fixed the issue with not maximized windows. Thx for the pointer.  
-
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| 📄| [Re: You got my 5!](https://www.codeproject.com/Messages/3765626/Re-You-got-my-5) | 👤 | [luisnike19](https://www.codeproject.com/script/Membership/View.aspx?mid=1475315) | 10-Feb-11 20:23 |
-
-Today I tested your fix, and now it's doing the opposite I found in your first version. For example I opened your zip file using WinRAR, and after opening the zip file, I maximized this WinRAR window, and then I hit "sort by list" and the WinRAR window restores.  
-In other test I have the "My network places" and when doing the same the window was maximized and after that the window restores. ![WTF | :WTF:](https://codeproject.global.ssl.fastly.net/script/Forums/Images/smiley_WTF.gif) it's weird  
-
-  
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| 📄| [Re: You got my 5!](https://www.codeproject.com/Messages/3765987/Re-You-got-my-5) | 👤 | [StehtimSchilf](https://www.codeproject.com/script/Membership/View.aspx?mid=3316814) | 11-Feb-11 3:40 |
-
-
-Hi luisnike19  
-  
-I could repeat this issue when I proceed as follow:  
-  
-1. open WinRAR  
-2. open `TaskBarSorterXP`  
-3. Maximize WinRAR  
-4. sort by list  
-  
--> WinRAR restores only. Same for the net work places.  
-  
-But try this.  
-Before you sort the list and click on "sort by list", click on "refresh", then sort the list and then click the button. If you do not refresh the list, the `WindowItem` contain the `PLACEMENT` info from the program start.  
-  
-
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| 📄| [Re: You got my 5!](https://www.codeproject.com/Messages/3766426/Re-You-got-my-5) | 👤 | [luisnike19](https://www.codeproject.com/script/Membership/View.aspx?mid=1475315) | 11-Feb-11 7:46 |
-
-Ah ok, I thought that, but I didn't know the Refresh button function. It's good. Maybe in case the the Replacemente info is null and I hit sort by list, you should get that placement info and then do the rest of the method. 👍  
-  
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| 📄| [Re: You got my 5!](https://www.codeproject.com/Messages/3767844/Re-You-got-my-5) | 👤 | [StehtimSchilf](https://www.codeproject.com/script/Membership/View.aspx?mid=3316814) | 12-Feb-11 18:00 |
-
-Hi  
-I cannot imagine a situation in which the `WindowPlacement` property should be `null`? Every time the `ListView` is refreshed (or initially displayed) all `WindowPlacements` are retrieved. Did you get any exceptions?  
-  
-
-|     |     |     |     |     |
-| ---: | :--- | --- | :--- | ---: |
-| 📄| [Re: You got my 5!](https://www.codeproject.com/Messages/3768234/Re-You-got-my-5) | 👤 | [luisnike19](https://www.codeproject.com/script/Membership/View.aspx?mid=1475315) | 13-Feb-11 14:58 |
-
-
-No, I didn't get any exceptions  
+| Post | Subject | Poster | Date |
+| :---: | :--- | :---: | :---: |
+| 💡 | Great App - but please add List Order Save/Load.| [Member 15710172](https://www.codeproject.com/script/Membership/View.aspx?mid=15710172) | 18-Jul-22 12:46 |
+|| Very useful App , but please will you add ability to saved the List Order once it is arranged the way the User wants it , and also the ability to load that that saved List Order. | |||
+| 📄| My vote of 5 |  [GicuPiticu](https://www.codeproject.com/script/Membership/View.aspx?mid=649908) | 14-Nov-21 14:58 |
+||Awesome ||||
+| ![Question](https://www.codeproject.com/script/Forums/Images/msg_question.gif "Question") | Fantastic!......request for 1 added feature...  | [Member 9442749](https://www.codeproject.com/script/Membership/View.aspx?mid=9442749) | 19-Sep-12 19:35 |
+||I know that you can save the list of Applications, but do you think you could make it possible to save the list order of "Window Titles"? The user could sort the list of opened Windows, then save that list. If the users sorts by the saved list, then any Windows in the list will be sorted into that order. ||||
+| 📄| My vote of 5 |  [Member 4481407](https://www.codeproject.com/script/Membership/View.aspx?mid=4481407) | 17-Feb-11 20:41 |
+||Very useful! |||| 
+| 📄| My vote of 3 |  [Theingi Win](https://www.codeproject.com/script/Membership/View.aspx?mid=5376935) | 9-Feb-11 19:51 |
+|| Nice! I get new knowledge related following about  <br/> Calling unmanaged code (P/Invoke, API call) <br/> Showing/Hiding/Activating application windows <br/> Use of Delegates to realize callback functions <br/> ||||
+| 📄| My vote of 5 |  [**JF2015**](https://www.codeproject.com/script/Membership/View.aspx?mid=2685176) | 6-Feb-11 23:48 |
+|| Good one. I like the usage of the Win API. Would be great if you could enhance the usability of this tool by providing sorting of the windows inside the form (move up or down). ||||
+| ✅ | [Re: My vote of 5 - Sort `ListView` by `ContextMenu`](https://www.codeproject.com/Messages/3760419/Re-My-vote-of-5-Sort-ListView-by-ContextMenu) |  [StehtimSchilf](https://www.codeproject.com/script/Membership/View.aspx?mid=3316814) | 7-Feb-11 3:51 |
+||Thx for your feedback. About sorting inside the form: The `ListView` has already a `ContextMenu` attached. I see, I didn't mentioned the `ContextMenu` in the article. I'll make good for it this evening. |||| 
+| 📄| My vote of 5 |  [Warrick Procter](https://www.codeproject.com/script/Membership/View.aspx?mid=3672333) | 6-Feb-11 17:53 |
+||I like it! <br/> I've been procrastinating about writing something along these lines myself but never got into gear. Your excellent piece of work has given me some impetus and at the same time saved me from a lot of research/time/effort.  ||||
+| 📄| You got my 5! | [luisnike19](https://www.codeproject.com/script/Membership/View.aspx?mid=1475315) | 6-Feb-11 10:25 |
+||For some reason I have Google Chrome and when sorting the window is not maximized, just restored. But the other windows I tested is working as expected.  👍 ||||
+| 📄| [Re: You got my 5!](https://www.codeproject.com/Messages/3760072/Re-You-got-my-5) |  [StehtimSchilf](https://www.codeproject.com/script/Membership/View.aspx?mid=3316814) |6-Feb-11 17:09 |
+|| You're right. The windows get not correctly restored (happens also with Windows Explorer). Luckily there exists the API calls `GetWindowPlacement()` and `SetWindowPlacement()`. I'll extend the class `WindowItem` with a new property for the window placement as soon as possible. Thx for the pointer. ||||  
+|✅| [Re: You got my 5!](https://www.codeproject.com/Messages/3763145/Re-You-got-my-5) |  [StehtimSchilf](https://www.codeproject.com/script/Membership/View.aspx?mid=3316814) | 8-Feb-11 22:07 |
+||I've finally fixed the issue with not maximized windows. Thx for the pointer.  ||||
+| 📄| [Re: You got my 5!](https://www.codeproject.com/Messages/3765626/Re-You-got-my-5) |  [luisnike19](https://www.codeproject.com/script/Membership/View.aspx?mid=1475315) | 10-Feb-11 20:23 |
+||Today I tested your fix, and now it's doing the opposite I found in your first version. For example I opened your zip file using WinRAR, and after opening the zip file, I maximized this WinRAR window, and then I hit "sort by list" and the WinRAR window restores. <br/>In other test I have the "My network places" and when doing the same the window was maximized and after that the window restores. ![WTF \| :WTF:](https://codeproject.global.ssl.fastly.net/script/Forums/Images/smiley_WTF.gif) it's weird ||||
+| 📄| [Re: You got my 5!](https://www.codeproject.com/Messages/3765987/Re-You-got-my-5) |  [StehtimSchilf](https://www.codeproject.com/script/Membership/View.aspx?mid=3316814) |11-Feb-11 3:40 |
+||I could repeat this issue when I proceed as follow: <br/> 1. open WinRAR  <br/> 2. open `TaskBarSorterXP`  <br/> 3. Maximize WinRAR  <br/> 4. sort by list -> WinRAR restores only. Same for the net work places. |||| <br/> But try this. <br/> Before you sort the list and click on "sort by list", click on "refresh", then sort the list and then click the button. If you do not refresh the list, the `WindowItem` contain the `PLACEMENT` info from the program start. ||||
+| 📄| [Re: You got my 5!](https://www.codeproject.com/Messages/3766426/Re-You-got-my-5) | [luisnike19](https://www.codeproject.com/script/Membership/View.aspx?mid=1475315) | 11-Feb-11 7:46 |
+| | Ah ok, I thought that, but I didn't know the Refresh button function. It's good. Maybe in case the the Replacemente info is null and I hit sort by list, you should get that placement info and then do the rest of the method. 👍||||
+| 📄| [Re: You got my 5!](https://www.codeproject.com/Messages/3767844/Re-You-got-my-5) | [StehtimSchilf](https://www.codeproject.com/script/Membership/View.aspx?mid=3316814) | 12-Feb-11 18:00 |
+|| I cannot imagine a situation in which the `WindowPlacement` property should be `null`? Every time the `ListView` is refreshed (or initially displayed) all `WindowPlacements` are retrieved. Did you get any exceptions? ||||
+| 📄| [Re: You got my 5!](https://www.codeproject.com/Messages/3768234/Re-You-got-my-5)  | [luisnike19](https://www.codeproject.com/script/Membership/View.aspx?mid=1475315) | 13-Feb-11 14:58 |
+||No, I didn't get any exceptions ||||
